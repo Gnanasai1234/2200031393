@@ -13,3 +13,6 @@ mongoose.connect(dburl).then(() => {
 const app = express() 
 app.use(express.json()) 
 
+app.listen(1000,()=>{
+    console.log("Server Running >>>>>")
+})
